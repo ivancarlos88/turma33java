@@ -3,8 +3,7 @@ programa
 {
 	inclua biblioteca Matematica
 	
-	funcao inicio()
-	{
+	funcao inicio(){
 		real x1, x2, y1, y2, d, r, s 
 		
 		escreva("Digite o valor de X1: ")
@@ -32,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 204; 
+ * @POSICAO-CURSOR = 71; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
