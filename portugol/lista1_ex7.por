@@ -1,7 +1,7 @@
 programa
 {
 	funcao inicio(){
-		real a, b, c, d, ee, f, x, y
+		real a, b, c, d, et, f, x, y
 
 		escreva ("A: ")
 		leia (a)
@@ -12,12 +12,12 @@ programa
 		escreva ("D: ")
 		leia (d)
 		escreva ("E: ")
-		leia (ee)
+		leia (et)
 		escreva ("F: ")
 		leia (f)
 		
-		x = ((c*ee)-(b*f))/((a*ee)-(b*d))
-		y = ((a*f)-(c*d))/((a*ee)-(b*d))
+		x = ((c*et)-(b*f))/((a*et)-(b*d))
+		y = ((a*f)-(c*d))/((a*et)-(b*d))
 		escreva ("Resultado x: " + x)
 		escreva ("\nResultado y: " + y)
 	}
@@ -27,7 +27,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 27; 
+ * @POSICAO-CURSOR = 378; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
