@@ -1,13 +1,16 @@
 import java.util.Scanner;
-public class lista1_ex5 {
 
-	static int a, b, c;
-	static double r, s, t, media;
-	
+public class lista1_ex5 {
 	
 	public static void main(String[] args) {
+	int a, b, c;
+	 double r, s, t, media;
+	
+	
+
 		
 		Scanner ler = new Scanner(System.in);
+		
 		System.out.print("Insira a nota 1: ");
 		a = ler.nextInt();
 		
