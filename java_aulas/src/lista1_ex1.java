@@ -11,7 +11,7 @@ public class lista1_ex1 {
 	 	
 	public static void main(String[] args) {
 		
-			Scanner ler = new Scanner(System.in);
+		Scanner ler = new Scanner(System.in);
 			System.out.print("Quantos anos você tem?: ");
 			anos = ler.nextInt();
 			
