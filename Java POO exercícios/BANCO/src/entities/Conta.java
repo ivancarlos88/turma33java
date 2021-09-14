@@ -11,6 +11,7 @@ public class Conta {
 	//construtor
 
 	public Conta(int numero, String cpf) {
+		super();
 		this.numero = numero;
 		this.cpf = cpf;
 	}
@@ -35,11 +36,11 @@ public class Conta {
 	public double getSaldo() {
 		return saldo;
 	}
-	
+	/*
 	public void setSaldo(double saldo) {
 		this.saldo = saldo;
 	}
-	
+	*/
 	public boolean isAtivo() {
 		return ativo;
 	}
@@ -69,12 +70,15 @@ public class Conta {
 			saldo -= valor;
 		}
 		
-		//saldo = saldo - valor;	
+		//saldo = saldo - valor;
+		
 	}
 	
 	//seja o que Deus quiser....
 	@Override
 	public String toString() {
 		return "Conta numero=" + numero + ", cpf=" + cpf + ", saldo=" + saldo ;
-	}	
+	}
+	
+	
 }
